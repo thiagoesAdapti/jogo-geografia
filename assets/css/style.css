@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #6a5acd;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 0px;
+  color: #fff;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topo {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.topo a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffc906;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+.topo a:hover {
+  background-color: #e0b403;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#geografia {
+  display: none;
+}
+
+#inicio a {
+  padding: 15px 20px;
+  background-color: #ffc906;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+  margin: 0px 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+#inicio a:hover {
+  background-color: #ffcc00;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+  margin: auto;
+}
+
+svg {
+  width: 30%;
+}
+
+path {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+path:hover {
+  fill: purple;
+  stroke: red;
+  stroke-width: 3px;
+  transition: fill 0.4s;
+}
+
+.encerra {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffc906;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+.encerra:hover {
+  background-color: #ffcc00;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#errouG {
+  color: #fff;
+  display: none;
+}
+
+#errouGe {
+  color: red;
+}
+
+#resultado {
+  display: none;
+}
+
+#geo {
+  display: none;
+}
+
+.titulo {
+  font-size: 60px;
+}
+
+.subtitulo {
+  font-size: 20px;
+  color: #ffc906;
+}
+
+#acertou,
+#errou {
+  font-size: 20px;
+}
+
+#acertou {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+#errou {
+  margin-top: 7px;
+}
+
+svg {
+  margin-bottom: 20px;
+}
