@@ -1,5 +1,7 @@
 # Jogo Educacional: Mapa do Brasil
 
+![Screenshot do jogo](./assets/img/print.png)
+
 ## Descrição
 Este é um jogo infantil e educacional desenvolvido como um trabalho na disciplina de Sistemas Multimídia. O jogo consiste em um mapa do Brasil, onde o jogador deve selecionar o estado correspondente ao nome exibido na tela. O objetivo é aprender a localização dos estados brasileiros de forma divertida e interativa.
 
